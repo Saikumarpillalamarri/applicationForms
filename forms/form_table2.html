@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(20, 37, 219);
+        }
+        input{
+            padding: 10px;
+        }
+        .email{
+            width: 94%;
+        }
+        .form-control{
+            width: 185px;
+            background: linear-gradient(45deg,blue,red);
+            color: white;
+            font-size: 20px;
+            outline: none;
+            border: none;
+            box-shadow: 0 5px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <form>
+
+            <table>
+                <h1>Conference Registration</h1>
+                <p>Please book for your conference by filling the form below, specify the expected number joining the conference.</p>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Frist name" id="Frist name">  
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Last name" id="Last name">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" placeholder="example@example.com" id="email" class="email"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="tel" placeholder="Phone number" id="Phone number"><br>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Address" name="Address" id="Address" required><br>
+                    </td>
+                    <tr>
+                        <td colspan="2"><input type="number" placeholder="Number Of People Attending" class="email"><br>
+                    </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="city"><br>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="state"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="text" placeholder="Postal Zip Code" id="email" class="email"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" class="form-control"></td>
+                </tr>
+            </table>
+    </center>
+</body>
+</html>

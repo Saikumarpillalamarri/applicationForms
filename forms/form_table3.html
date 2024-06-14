@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .register-div{
+            width: 300px;
+            margin: 50px auto;
+            padding: 30px;
+        }
+        .form-group label{
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="register-div">
+        <form>
+            <div class="form-group">
+                <label for="name">First Name</label>
+                <input type="text" id="name" placeholder="first name" class="control">
+            </div>
+            <div class="form-group">
+                <label for="name">Last Name</label>
+                <input type="text" id="name" placeholder="last name" class="control">
+            </div>
+            <div class="form-group">
+                <label for="mail">Email</label>
+                <input type="text" id="mail" placeholder="examole@examole.com" class="control">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password</label>
+                <input type="password" id="mail" placeholder="password" class="control">
+            </div>
+            <div class="form-group">
+                <label for="pin">PIN</label>
+                <input type="text" id="pin" name="pin" maxlength="4" size="4">
+            </div>
+            <div class="form-group">
+                <label>Date And Time</label>
+                <input type="datetime-local" class="control">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input type="date">
+            </div>
+            <div class="form-group">
+                <label for="datemax">Enter a date before 1980-01-01:</label>
+                <input type="date" id="datemax" name="datemax" max="1979-12-31">
+            </div>
+            <div class="from-group">
+                <label for="datemin">Enter a date after 2000-01-01:</label>
+                <input type="date" id="datemin" name="datemin" min="2000-01-02">
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity (between 1 and 5):</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+            </div>
+            <div class="form-group">
+                <label>File</label>
+                <input type="file">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
